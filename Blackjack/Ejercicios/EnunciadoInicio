@@ -1,0 +1,4 @@
+Al iniciar una partida de blackjack, tanto al jugador como al crupier se les dan dos cartas.
+En este ejemplo, utilizamos un bucle para dar dos cartas a cada uno.
+Cada uno tendrá una variable llamdas 'tu' y 'crupier' que representan el numero de cartas de cada uno.
+Por ello, inicialmente son 0 y tras el bucle, deben ser ambas 2.

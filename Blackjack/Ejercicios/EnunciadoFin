@@ -1,0 +1,10 @@
+Al finalizar una partida de blackjack, se aplican las siguiente condiciones para hallar al ganador.
+Si un jugador tiene mas de 21 puntos, pierde.
+Gana el jugador que mas se acerque a 21. 
+Si tanto el jugador como el crupier tienen mas de 21, gana el crupier.
+Mostrar los siguientes mensajes:
+	"Tienes mas de 21 (<tusPuntos>). Has perdido! (Crupier: <crupierPuntos>")
+	"El crupier tiene mas de 21 (<crupierPuntos>). Has ganado! (Tu: <tusPuntos>)"
+	"Tienes mas que el crupier (<tusPuntos> > <crupierPuntos>). Has ganado!"
+	"El crupier tiene mas que tu (<crupierPuntos> > <tusPuntos>). Has perdido!"
+	"Empate (<crupierPuntos o tusPuntos>)"

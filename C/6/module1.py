@@ -39,7 +39,7 @@ columna = 0 # columna en la que va la marca
 fila = int(input("Fila: "))
 columna = int(input("Columna: "))
 
-# posibles valores de fila: 1 2
+# posibles valores de fila: 1 2 3
 # posibles valores de colu: 1 2 3
 
 # si fila es 1 entonces me refiero a la primera
@@ -62,5 +62,7 @@ elif (fila == 3):
         CA = 1
     elif (columna == 2):
         CB = 1
-    elif (columna == 3):
+    elif (columan == 3):
         CC = 1
+
+    print (AA, AB, AC, BA, BB, BC, CA, CB, CC)

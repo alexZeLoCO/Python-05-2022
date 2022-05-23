@@ -40,49 +40,40 @@ def cogerCarta (mazo):
 def end (tu, crupier):
     """
     Revisa quien ha ganado
+    Mas de 21 (sin incluir) ==> Pierde
+    Gana el que mas se acerca a 21
     """
-    if (tu > 21): # pierdes
-        print("Tienes mas de 21. Has perdido! (Crupier:", crupier, ")")
-    elif (crupier > 21): # ganas
-        print("El crupier tiene mas de 21. Has ganado! (Crupier:", crupier, ")")
-    elif (tu > crupier): # ganas
-        print("Tienes mas que el crupier (", tu, ">", crupier, "). Has ganado!")
-    elif (crupier > tu): # pierdes
-        print("El crupier tiene mas que tu (", crupier, ">", tu, "). Has perdido!")
-    else: # empate
-        print("Empate! (", crupier,")")
+    # TODO: Revisa quien ha ganado
 
 mazo = newCartas() # un mazo con todas las cartas
 
-tu = 0
-crupier = 0
+# TODO: Variables
+
+# ---
 crupier_original = 0
 
-# cada jugador empieza con 2 cartas
-for i in range (0, 2, 1):
-    tu+=cogerCarta(mazo) # carta aleatoria para jugador
-    crupier_original+=cogerCarta(mazo) # carta aleatoria para crupier
+# TODO: cada jugador empieza con 2 cartas
 
+# ---
 crupier = crupier_original
 print("Tienes", tu) # mostrar tus cartas
 
 for ronda in range (0, 20, 1):
 
-    # muestro un 'menu' por pantalla
-    print("Seleccionar numero:")
-    print("1. Coger carta")
-    print("2. Parar")
+    # TODO: muestro un 'menu' por pantalla y recojo la eleccion en 'eleccion'
+    # Utilizar enteros en el indice para la eleccion
 
-    eleccion = int(input("~> ")) # eleccion del jugador
-
+    # ---
     if (2 == eleccion):
         end(tu, crupier) # revisa quien ha ganado
         break   # sale del for
     else:
         tu+=cogerCarta(mazo) # da una carta del mazo
         crupier+=cogerCarta(mazo) # da una carta del mazo
-        print("Tienes", tu, " ||| Crupier:", crupier_original) # mostrar tus cartas
-        if (tu >= 21 or crupier >= 21):
-            end(tu, crupier) # revisa quien ha ganado
+        # TODO: Mostrar tus cartas y crupier_original
+
+        # ---
+        if (tu > 21 or crupier > 21):
+            end (tu, crupier)
             break   # sale del for
 

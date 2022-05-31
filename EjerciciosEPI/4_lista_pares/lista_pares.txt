@@ -1,0 +1,12 @@
+"""
+Programa que muestre la lista de pares entre dos numeros (ambos incluidos) pedidos por teclado.
+Ejemplo:
+    Introduzca el primer numero: 10
+    Introduzca el segundos numero: 15
+    Numeros pares entre 10 y 15:
+    10
+    12
+    14
+"""
+
+

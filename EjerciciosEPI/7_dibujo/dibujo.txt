@@ -1,0 +1,13 @@
+"""
+Programa que pide un tamanno de un triangulo y muestra una figura tal que la siguiente.
+Ejemplo:
+    Introduzca tamanno del triangulo: 3
+    *
+    **
+    ***
+    ***
+    **
+    *
+"""
+
+

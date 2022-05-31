@@ -1,0 +1,8 @@
+"""
+Programa que muestra la suma de todos los divisores de un numero introducido por el teclado.
+Ejemplo:
+Introduzca un numero: 22
+La suma de todos los divisores de 22 es 36
+"""
+
+

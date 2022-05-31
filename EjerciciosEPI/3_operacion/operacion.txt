@@ -1,0 +1,9 @@
+"""
+Programa que haga el siguiente sumatorio: (n^(i+1)/sqrt(i)), siendo n la media de los numeros desde el 0 hasta el 100 -ambos incluidos-.
+El sumatorio comienza en 1 y finaliza en un numero introducido por el usuario.
+Ejemplo:
+    Introduzca el limite del sumatorio: 20
+    El sumatorio es: 1.34...
+"""
+
+

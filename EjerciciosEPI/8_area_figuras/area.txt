@@ -1,0 +1,4 @@
+"""
+Programa que calcule el area de un circulo, cuadrado o triangulo en funcion de la eleccion del usuario desde un menu.
+Todos los datos necesarios seran pedidos por teclado.
+"

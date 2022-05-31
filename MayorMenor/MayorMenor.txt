@@ -1,0 +1,21 @@
+Programa que tiene un numero guardado en una variable. (Por ejemplo, el 150).
+El usuario tiene 5 intentos para acertar dicho numero. Para ello, el usuario introduce un numero, y el programa dice si es mayor o menor que el objetivo.
+
+Ejemplo1:
+    Introduzca un numero: 100
+    100 es menor que el objetivo.
+    Introduzca un numero: 200
+    200 es menor que el objetivo.
+    (...)
+    Introduzca un numero: 150
+    Enhorabuena, 150 era el numero correcto!
+
+Ejemplo2:
+    Introduzca un numero: 100
+    100 es menor que el objetivo.
+    Introduzca un numero: 200
+    200 es menor que el objetivo.
+    (...)
+    Introduzca un numero: 124
+    Se ha quedado sin intentos! El numero correcto era 150.
+   

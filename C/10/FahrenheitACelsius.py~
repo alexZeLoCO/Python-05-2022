@@ -1,0 +1,19 @@
+"""
+Programa 13:
+    Pide temp en grados Fahrenheit y la escribe en Celsius.
+    C = (F - 32) / 1.8
+
+Ejemplo:
+    Introduce los grados F: 32
+    32 Fº son 0 Cº
+"""
+
+# Variables
+c = 0
+f = 0
+
+# Entrada
+c = int(input("Introduzca los grados F: "))
+
+# Salida
+print(c)

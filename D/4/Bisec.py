@@ -16,3 +16,16 @@ def f (x):
     USO: f(x)
     """
     return -x**5 + 2*x**4 - 3*x**3 + 4*x**2 - 5*x + 7
+a = 0
+b = 2
+
+iteraciones = 0
+iteraciones = int(input("Introduzca numero de iteraciones: "))
+
+for i in range (0, iteraciones, 1):
+    if ((f(a) * f((b+a)/2)) < 0):
+        b = (b+a)/2
+    else:
+        a = (b+a)/2
+
+print("La raiz de la funcion es", b, "y su valor aproximado f(x) es", f(b))

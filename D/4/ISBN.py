@@ -11,3 +11,12 @@ Ejemplo:
     Introduzca digito 10: 0
     ISBN: 0987654321
 """
+
+ISBN = 0
+digito_actual = 0
+
+for i in range (0, 10, 1):
+    digito_actual = int(input("Introduzca el digito: "))
+    ISBN = ISBN + digito_actual * (10 ** i)
+
+print("ISBN:", ISBN)

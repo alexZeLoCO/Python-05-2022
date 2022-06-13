@@ -2,5 +2,5 @@
 
 suma=0
 for i in range (int(input("Introduzca inicio: ")), int(input("Introduzca fin: "))+1, 1):
-    suma+=int(input("Introduzca numero: "))
+    suma+=i
 print("La suma es:", suma)

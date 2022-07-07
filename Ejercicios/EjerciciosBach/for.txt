@@ -1,0 +1,65 @@
+1. Programa que calcule el sumatorio de todos los numeros desde a hasta b.
+Siendo a y b dos numeros introducidos por el usuario.
+Introduce el primer numero: 2
+Introduce el segundo numero: 5
+La suma de todos los numeros desde 2 hasta 5 es: 14
+
+2. Programa que calcule la suma de varios numeros introducidos por el usuario.
+La cantidad de numeros a introducir la indica el usuario al inicio del
+programa.
+Introduce la cantidad de numeros a introducir: 3
+Introduce el numero 1: 7
+Introduce el numero 2: 0
+Introduce el numero 3: -2
+La suma de los numeros introducidos es: 6
+
+3. Programa que muestra por pantalla todos los numeros que son pares desde el
+1 hasta otro introducido por el usuario.
+Introduce un numero: 6
+El 2 es par.
+El 4 es par.
+El 6 es par.
+
+4. Programa que pide un entero y muestra todos sus divisores.
+Introduce un numero: 6
+El 1 es divisor de 6.
+El 2 es divisor de 6.
+El 3 es divisor de 6.
+El 6 es divisor de 6.
+
+5. Programa que cuente los numeros introducidos por el usuario. La cantidad de
+numeros es introducida por el usuario al inicio del programa.
+Introduzca cantidad de numeros a introducir: 3
+Introduzca numero 1: 1
+Introduzca numero 2: -2
+Introduzca numero 3: -7
+Se han introducido 2 numeros negativos.
+
+6. Programa que determine si un numero es primo o no.
+Introduce un numero: 5
+El 5 es primo porque tiene 2 divisores.
+
+7. Programa que pide un entero y muestra todos los divisores de todos los
+numeros desde el 1 hasta el entero.
+Introduzca un numero: 6
+Los divisores de 1:
+El 1 es divisor de 1.
+Los divisores de 2:
+El 1 es divisor de 2.
+El 2 es divisor de 2.
+Los divisores de 3:
+El 1 es divisor de 3.
+El 3 es divisor de 3.
+Los divisores de 4:
+El 1 es divisor de 4.
+El 2 es divisor de 4.
+El 4 es divisor de 4.
+Los divisores de 5:
+El 1 es divisor de 5.
+El 5 es divisor de 5.
+Los divisores de 5:
+El 1 es divisor de 6.
+El 2 es divisor de 6.
+El 4 es divisor de 6.
+El 6 es divisor de 6.
+

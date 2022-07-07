@@ -1,0 +1,63 @@
+1. Programa que dice cual de los dos numeros introducidos es mayor.
+Introduce un numero: 1
+Introduce un numero: 2
+2 es mayor que 1
+
+Introduce un numero: 7
+Introduce un numero: 7
+Los dos numeros son iguales
+
+2. Programa que revisa si dos numeros introducidos por el usuario son
+divisibles entre ellos.
+Introduce un numero: 8
+Introduce un numero: 2
+8 es divisible entre 2
+
+Introduce un numero: 2
+Introduce un numero: 8
+8 es divisible entre 2
+
+Introduce un numero: 7
+Introduce un numero: 2
+Los numeros no son divisibles
+
+3. Programa que revisa si de los 3 numeros introducidos son todos iguales,
+solo 2 son iguales o si ninguno es igual.
+Introduce un numero: 7
+Introduce un numero: 7
+Introduce un numero: 7
+Todos los numeros son iguales
+
+Introduce un numero: 7
+Introduce un numero: 5
+Introduce un numero: 7
+2 numeros son iguales
+
+Introduce un numero: 7
+Introduce un numero: 5
+Introduce un numero: 1
+Ninguno de los numeros son iguales
+
+4. Programa que retorna el cociente de una division si es exacta y el cociente
+con el resto si no lo es.
+Introduzca dividendo: 4
+Introduzca divisor: 2
+Division exacta. Cociente: 2.
+
+Introduzca dividendo: 5
+Introduzca divisor: 2
+Division exacta. Cociente: 2. Resto 1.
+
+5. Programa que diga cuantos annos han pasado desde uno dado o cuantos faltan.
+Introduzca anno actual: 2022
+Introduzca otro anno: 2000
+Han pasado 22 annos desde el 2000
+
+Introduzca anno actual: 2022
+Introduzca otro anno: 2044
+Faltan 22 annos para llegar al 2044
+
+Introduzca anno actual: 2022
+Introduzca otro anno: 2022
+Son el mismo anno
+Son el mismo anno

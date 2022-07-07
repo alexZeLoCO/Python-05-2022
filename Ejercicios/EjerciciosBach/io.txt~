@@ -1,0 +1,22 @@
+1. Programa que pide el nombre y edad del usuario. Los muestra por pantalla.
+Introduce tu nombre: Alex
+Introduce tu edad: 20
+Te llamas Alex y tienes 20 annos.
+
+2. Programa que convierte una cantidad dada en pulgadas a cm. Nota: 1cm =
+2.54pulgadas
+Introduce pulgadas: 2
+2 pulgadas son 5.08cm
+
+3. Programa que calcule la edad del usuario dado su anno de nacimiento y el
+anno actual.
+Introducir anno actual: 2022
+Introducir anno de nacimiento: 2002
+Tienes 20 annos.
+
+4. Programa que calcule la media de dos numeros.
+Introduce un numero: 2
+Introduce un numero: 6
+La media de 2 y 6 es 4.
+
+
